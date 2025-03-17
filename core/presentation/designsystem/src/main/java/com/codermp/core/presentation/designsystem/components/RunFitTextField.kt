@@ -33,12 +33,15 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.codermp.core.presentation.designsystem.CheckIcon
 import com.codermp.core.presentation.designsystem.EmailIcon
+import com.codermp.core.presentation.designsystem.R
 import com.codermp.core.presentation.designsystem.RunFitTheme
 
 /**
@@ -85,13 +88,17 @@ fun RunFitTextField(
                 Text(
                     text = error,
                     color = MaterialTheme.colorScheme.error,
-                    fontSize = 12.sp
+                    fontSize = 12.sp,
+                    modifier = Modifier
+                        .testTag(tag = stringResource(R.string.text_field_error_test_tag))
                 )
             } else if (additionalInfo != null) {
                 Text(
                     text = additionalInfo,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    fontSize = 12.sp
+                    fontSize = 12.sp,
+                    modifier = Modifier
+                        .testTag(tag = stringResource(R.string.text_field_additional_info_test_tag))
                 )
             }
         }
@@ -135,7 +142,9 @@ fun RunFitTextField(
                             imageVector = endIcon,
                             contentDescription = null,
                             tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                            modifier = Modifier.padding(end = 8.dp)
+                            modifier = Modifier
+                                .padding(end = 8.dp)
+                                .testTag(tag = stringResource(R.string.text_field_end_icon_test_tag))
                         )
                     }
                 }
@@ -162,6 +171,7 @@ fun RunFitTextField(
                 .onFocusChanged {
                     isFocused = it.isFocused
                 }
+                .testTag(tag = stringResource(R.string.basic_text_field_test_tag))
         )
     }
 }
