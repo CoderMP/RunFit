@@ -5,19 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testRunFitTextField_emptyState()">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="testRunFitTextField_errorState()">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="RunFitTextFieldTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testRunFitTextField_enterValidEmail_noError()">
+      <SelectionState runConfigName="testRunFitTextField_enterInvalidEmail_seeError()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testRunFitTextField_enterInvalidEmail_seeError()">
+      <SelectionState runConfigName="testRunFitPasswordTextField_enterPassword_passwordNotVisible()">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="RunFitPasswordTextFieldTest">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="testRunFitPasswordTextField_togglePasswordVisibility()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

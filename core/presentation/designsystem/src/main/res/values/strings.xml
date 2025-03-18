@@ -8,4 +8,6 @@
     <string name="text_field_error_test_tag">errorText</string>
     <string name="text_field_additional_info_test_tag">textFieldAdditionalInfo</string>
     <string name="text_field_end_icon_test_tag">textFieldEndIcon</string>
+    <string name="basic_secure_text_field_test_tag">passwordTextField</string>
+    <string name="password_visibility_toggle_test_tag">passwordVisibilityToggle</string>
 </resources>

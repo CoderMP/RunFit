@@ -32,6 +32,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
@@ -111,7 +112,8 @@ fun RunFitPasswordTextField(
                 .padding(horizontal = 12.dp)
                 .onFocusChanged {
                     isFocused = it.isFocused
-                },
+                }
+                .testTag(tag = stringResource(R.string.basic_secure_text_field_test_tag)),
             decorator = { innerBox ->
                 Row(
                     modifier = Modifier
@@ -139,7 +141,11 @@ fun RunFitPasswordTextField(
                         }
                         innerBox()
                     }
-                    IconButton(onClick = onTogglePasswordVisibility) {
+                    IconButton(
+                        onClick = onTogglePasswordVisibility,
+                        modifier = Modifier
+                            .testTag(tag = stringResource(R.string.password_visibility_toggle_test_tag))
+                    ) {
                         Icon(
                             imageVector = if (!isPasswordVisible) {
                                 EyeClosedIcon
