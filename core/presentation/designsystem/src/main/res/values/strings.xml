@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="go_back">Go back</string>
+    <string name="open_menu">Open menu</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="basic_text_field_test_tag">inputTextField</string>
+    <string name="text_field_error_test_tag">errorText</string>
+    <string name="text_field_additional_info_test_tag">textFieldAdditionalInfo</string>
+    <string name="text_field_end_icon_test_tag">textFieldEndIcon</string>
+    <string name="basic_secure_text_field_test_tag">passwordTextField</string>
+    <string name="password_visibility_toggle_test_tag">passwordVisibilityToggle</string>
 </resources>
