@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RunFit</string>
+    <string name="runfit">RunFit</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_to_runfit">Welcome to RunFit!</string>
+    <string name="runfit_description">Track your runs, set goals and achieve fitness milestones with our intuitive app!</string>
+</resources>
