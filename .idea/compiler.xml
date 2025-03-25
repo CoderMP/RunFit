@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="build-logic.convention" target="21" />
+      <module name="build-logic.convention.main" target="21" />
+      <module name="build-logic.convention.test" target="21" />
+      <module name="RunFit.app" target="21" />
+      <module name="RunFit.auth.data" target="21" />
+      <module name="RunFit.auth.domain" target="17" />
+      <module name="RunFit.auth.domain.main" target="17" />
+      <module name="RunFit.auth.domain.test" target="17" />
+      <module name="RunFit.auth.presentation" target="21" />
+      <module name="RunFit.core.data" target="21" />
+      <module name="RunFit.core.database" target="21" />
+      <module name="RunFit.core.domain" target="17" />
+      <module name="RunFit.core.domain.main" target="17" />
+      <module name="RunFit.core.domain.test" target="17" />
+      <module name="RunFit.core.notification" target="21" />
+      <module name="RunFit.core.presentation.designsystem" target="21" />
+      <module name="RunFit.core.presentation.ui" target="21" />
+      <module name="RunFit.run.data" target="21" />
+      <module name="RunFit.run.domain" target="17" />
+      <module name="RunFit.run.domain.main" target="17" />
+      <module name="RunFit.run.domain.test" target="17" />
+      <module name="RunFit.run.location" target="21" />
+      <module name="RunFit.run.network" target="21" />
+      <module name="RunFit.run.presentation" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
