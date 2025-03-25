@@ -6,4 +6,22 @@
     <string name="sign_in">Sign In</string>
     <string name="welcome_to_runfit">Welcome to RunFit!</string>
     <string name="runfit_description">Track your runs, set goals and achieve fitness milestones with our intuitive app!</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="example_email">example@test.com</string>
+    <string name="email">Email</string>
+    <string name="must_be_valid_email">Must be a valid email</string>
+    <string name="password">Password</string>
+    <string name="at_least_x_characters">At least %d characters</string>
+    <string name="at_least_one_number">At least one number</string>
+    <string name="contains_lowercase_character">Contains a lowercase character</string>
+    <string name="contains_uppercase_character">Contains an uppercase character</string>
+    <string name="register">Register</string>
+    <string name="error_email_exists">A user with that email already exists!</string>
+    <string name="registration_success">Registration Successful! You can log in now!</string>
+    <string name="login_header">Hi There!</string>
+    <string name="login_welcome_text">Welcome to your ultimate running companion! Track, analyze, and conquer your runs!</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="login_success">you\'re logged in!</string>
+    <string name="error_email_password_incorrect"><![CDATA[Incorrect email &/or password!]]></string>
 </resources>
