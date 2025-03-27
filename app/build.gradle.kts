@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.runfit.android.application.compose)
     alias(libs.plugins.runfit.jvm.ktor)
+    alias(libs.plugins.runfit.android.junit5)
 }
 
 android {

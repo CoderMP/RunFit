@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.text.input.TextFieldLineLimits
 import androidx.compose.foundation.text.input.TextFieldState
@@ -54,6 +55,7 @@ import com.codermp.core.presentation.designsystem.RunFitTheme
  * @param modifier The [Modifier] to apply to the text field.
  * @param error The error message to display if the text field is invalid (Optional).
  * @param keyboardType The [KeyboardType] to use for the text field (default is [KeyboardType.Text]).
+ * @param keyboardAction The [KeyboardActions] to use for the text field (default is [KeyboardActions()]).
  * @param additionalInfo Additional information to display below the text field (Optional).
  */
 @Composable
@@ -66,6 +68,7 @@ fun RunFitTextField(
     modifier: Modifier = Modifier,
     error: String? = null,
     keyboardType: KeyboardType = KeyboardType.Text,
+    keyboardAction: KeyboardActions = KeyboardActions(),
     additionalInfo: String? = null
 ) {
     var isFocused by remember { mutableStateOf(false) }
