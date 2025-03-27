@@ -11,6 +11,7 @@
       <module name="RunFit.auth.domain.main" target="17" />
       <module name="RunFit.auth.domain.test" target="17" />
       <module name="RunFit.auth.presentation" target="21" />
+      <module name="RunFit.core.android-test" target="21" />
       <module name="RunFit.core.data" target="21" />
       <module name="RunFit.core.database" target="21" />
       <module name="RunFit.core.domain" target="17" />
@@ -19,6 +20,9 @@
       <module name="RunFit.core.notification" target="21" />
       <module name="RunFit.core.presentation.designsystem" target="21" />
       <module name="RunFit.core.presentation.ui" target="21" />
+      <module name="RunFit.core.test" target="17" />
+      <module name="RunFit.core.test.main" target="17" />
+      <module name="RunFit.core.test.test" target="17" />
       <module name="RunFit.run.data" target="21" />
       <module name="RunFit.run.domain" target="17" />
       <module name="RunFit.run.domain.main" target="17" />
